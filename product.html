@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .product-card {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card .product-details {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.395);
+            color: white;
+            padding: 10px;
+            transform: translateY(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-card:hover .product-details {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-cover bg-center h-screen relative" style="background-image: url('/img/h2hj1y.jpg'); font-sans">
+    <!-- Header -->
+    <header>
+        <div class="relative z-10 container mx-auto px-6 py-4 flex justify-between items-center text-white">
+            <img src="/img/logogue.png" alt="EcoShowcase Logo" class="h-10">
+            <nav class="space-x-8">
+                <a href="index.html" class="hover:text-green-400">HOME</a>
+                <a href="#" class="text-green-400">PRODUCT</a>
+                <a href="login.html" class="hover:text-green-400">LOG IN</a>
+                <a href="signUp.html" class="hover:text-green-400">SIGN UP</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto p-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Product Items -->
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/botol2.jpg" alt="Reusable Bottle" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Botol Minum Reusable</h3>
+                    <p class="text-sm">Mengurangi penggunaan plastik sekali pakai.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/panel.jpg" alt="Mini Solar Panel" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Panel Surya Mini</h3>
+                    <p class="text-sm">Sumber energi terbarukan yang ramah lingkungan.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/tas.jpg" alt="Recycled Bag" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Tas Daur Ulang</h3>
+                    <p class="text-sm">Dibuat dari bahan daur ulang yang ramah lingkungan.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/sikatgigi.jpg" alt="Bamboo Toothbrush" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Sikat Gigi Bambu</h3>
+                    <p class="text-sm">Alternatif ramah lingkungan untuk sikat gigi.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/case insert 1.jpg" alt="Eco-Friendly Phone Case" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Case HP Ramah Lingkungan</h3>
+                    <p class="text-sm">Case ponsel yang terbuat dari bahan daur ulang.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/sedot.jpg" alt="Reusable Straw" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Sedotan Reusable</h3>
+                    <p class="text-sm">Mengurangi penggunaan sedotan plastik sekali pakai.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/daya.jpg" alt="Solar-Powered Charger" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Pengisi Daya Surya</h3>
+                    <p class="text-sm">Charger ramah lingkungan yang menggunakan tenaga matahari.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/tas2.jpg" alt="Eco-Friendly Tote Bag" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Tas Tote Ramah Lingkungan</h3>
+                    <p class="text-sm">Tas belanja yang dapat digunakan kembali untuk mengurangi sampah plastik.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/tong.jpg" alt="Compost Bin" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Tempat Sampah Kompos</h3>
+                    <p class="text-sm">Menangani sampah organik dengan cara ramah lingkungan.</p>
+                </div>
+            </div>
+            <div class="product-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./img/makan.jpg" alt="Bamboo Cutlery" class="w-full h-48 object-cover">
+                <div class="product-details p-4">
+                    <h3 class="font-semibold">Peralatan Makan Bambu</h3>
+                    <p class="text-sm">Peralatan makan yang ramah lingkungan dan dapat digunakan berulang kali.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 EcoShowcase. RUT & JES .</p>
+            <p>
+                <a href="#" class="hover:text-green-400">Facebook</a> |
+                <a href="#" class="hover:text-green-400">Twitter</a> |
+                <a href="#" class="hover:text-green-400">Instagram</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
